@@ -1,4 +1,4 @@
-FROM centos6.7
+FROM centos:6.7
 MAINTAINER xiaoxinwt "xiaoxinwt@163.com"
 RUN yum -y update
 RUN yum install -y httpd
